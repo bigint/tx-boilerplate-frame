@@ -11,8 +11,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
     method: "eth_sendTransaction",
     params: {
       abi: [],
-      to: "0x0000000000000000000000000000000000000000",
-      value: "0"
+      to: "0x03Ba34f6Ea1496fa316873CF8350A3f7eaD317EF",
+      value: "0.1"
     },
   };
   return NextResponse.json(txData);
